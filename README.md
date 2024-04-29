@@ -1,2 +1,2 @@
 # protect-secrets
-encrypt &amp; decrypt passwords for services 
+encrypt &amp; decrypt passwords for your services 
