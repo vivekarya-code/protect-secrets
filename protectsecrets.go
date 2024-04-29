@@ -70,7 +70,7 @@ func DecryptFile(filename string, passphrase string) []byte {
 func main() {
 	fmt.Println("Starting the application...")
 
-	ciphertext := encrypt([]byte("actual password goes here"), "<shh, it's a secret>")
+	ciphertext := encrypt([]byte("actual password goes here"), "shh, it's a secret")
 	fmt.Printf("Encrypted password: %x \n", ciphertext)
 
 	plaintext := Decrypt(ciphertext, "i told you it's a secret")
